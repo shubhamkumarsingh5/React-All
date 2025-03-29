@@ -1,12 +1,8 @@
-import ThemedComponent from "../components/contextAPI/themedComponent";
-import { ThemeProvider } from "../components/contextAPI/themeProvider.jsx";
+import ParentComponent from "../components/contextAPI/dataChildToParent/parent.jsx";
+
 import "./App.css";
 function App() {
-  return (
-    <ThemeProvider>
-      <ThemedComponent />
-    </ThemeProvider>
-  );
+  return <ParentComponent />;
 }
 
 export default App;
